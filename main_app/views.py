@@ -50,27 +50,27 @@ players = [
     # --------------------Bruins---------------------------
     Player("Bobby Orr", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYNpZCEAfeDwLacYI1qYwln9d_FYrX_3pZZQ&usqp=CAU","Defensmen", "Number 4", "1966-1978", "Canadian"),
     Player("Ray Bourque", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2tqGug9x1jXdLEksrnPqVyKhvAnlfobjPyQ&usqp=CAU", "Defensmen" "None", "1979-2001", "Canadian"),
-    Player("Patrice Burgeron")
-    Player("Cam Neely")
+    Player("Patrice Burgeron", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk86pT9NWI4QP27AkjV814ngGI52dUHCB74A&usqp=CAU", "Center", "St. Patrice", "2003-present", "Canadian" ),
+    Player("Cam Neely", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9SfGvl9GCHIsWK4CVuvp5yM-Rc0j9jJhzQ&usqp=CAU", "Right Wing", "Bam-Bam-Cam", "1983-1996", "Canadian"),
     # ---------------------Blackhawks-------------------------------
-    Player("Bobby Hull")
-    Player("Patrick Kane")
-    Player("Chris Chelios")
-    Player("Stan Mikita")
+    Player("Bobby Hull", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxxggPfQpOGg30o5EKf7_kPre3dltIwSFlcQ&usqp=CAU", "Winger", "The Golden Jet", "1957-1980", "Canadian"),
+    Player("Patrick Kane", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1Ld78ImJPMVXbmJwFHrYWV1SYYy-9MJQZw&usqp=CAU", "Right Wing", "Showtime", "2007-present", "American"),
+    Player("Chris Chelios", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhdV_pdiPPl1sTtZtcZ_fjovZyT_0HHv_XA&usqp=CAU", "Defenseman", "Soft Hands Chelios", "1984-2010", "American"),
+    Player("Stan Mikita", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRszDNY2x0luqd2PRLY9a62NLZS4QPojsRqgA&usqp=CAU", "Center", "Stosh", "1958-1980", "Slovakian/Canadian"),
     # -------------------------Rangers---------------------------
-    Player("Brian Leetch")
-    Player("Mark Messier")
-    Player("Mike Richter")
-    Player("Henrik Lundqvist")
+    Player("Brian Leetch", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPGMoDdywNCeweoMcG2ufG8kPY1Mt22F7fw&usqp=CAU", "Defenseman", "None", "1987-2006", "American"),
+    Player("Mark Messier", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSqp0rOc1C0iodEsQiv7mkIISROvQZJ6CR6w&usqp=CAU", "Center", "Moose", "1979-2004", "Canadian"),
+    Player("Mike Richter", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6JDMQq-fHcU5wyC0DRdVcP5uOgoVIE0gIBw&usqp=CAU", "Goalie", "None", "1989-2003", "American"),
+    Player("Henrik Lundqvist", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7rkyeKfbBibKQ44lX5ziISCqEqG3-ajrnQ&usqp=CAU", "Goalie", ""),
     # ------------------------Maple Leafs----------------------------
-    Player("Mats Sundin")
-    Player("Doug Gilmore")
-    Player("Wendel Clark")
-    Player("Auston Matthews")
+    Player("Mats Sundin"),
+    Player("Doug Gilmore"),
+    Player("Wendel Clark"),
+    Player("Auston Matthews"),
     # --------------------------Canadians----------------------------
-    Player("Guy Laffleur")
-    Player("Maurice Richard")
-    Player("Patrick Roy")
-    Player("Daly Koivu")
+    Player("Guy Laffleur"),
+    Player("Maurice Richard"),
+    Player("Patrick Roy"),
+    Player("Daly Koivu"),
 
 ]
