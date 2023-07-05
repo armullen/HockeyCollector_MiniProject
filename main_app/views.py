@@ -61,16 +61,16 @@ players = [
     Player("Brian Leetch", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPGMoDdywNCeweoMcG2ufG8kPY1Mt22F7fw&usqp=CAU", "Defenseman", "None", "1987-2006", "American"),
     Player("Mark Messier", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSqp0rOc1C0iodEsQiv7mkIISROvQZJ6CR6w&usqp=CAU", "Center", "Moose", "1979-2004", "Canadian"),
     Player("Mike Richter", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6JDMQq-fHcU5wyC0DRdVcP5uOgoVIE0gIBw&usqp=CAU", "Goalie", "None", "1989-2003", "American"),
-    Player("Henrik Lundqvist", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7rkyeKfbBibKQ44lX5ziISCqEqG3-ajrnQ&usqp=CAU", "Goalie", ""),
+    Player("Henrik Lundqvist", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7rkyeKfbBibKQ44lX5ziISCqEqG3-ajrnQ&usqp=CAU", "Goalie", "Ricky", "1997-2018", "Sweedish"),
     # ------------------------Maple Leafs----------------------------
-    Player("Mats Sundin"),
-    Player("Doug Gilmore"),
-    Player("Wendel Clark"),
-    Player("Auston Matthews"),
+    Player("Mats Sundin", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR40YK9E7dsniyglgXWg2ITkUZ6pSy6tqn2A&usqp=CAU", "Center", "Weed", "1989-2009", "Sweedish"),
+    Player("Doug Gilmore", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8NGtPbZFGftp5HX1uzcduJhINzDLw5eIbA&usqp=CAU", "Center", "Killer", "1983-2003", "Canadian"),
+    Player("Wendel Clark", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXEEpg3KjU2LT5fy-TONNMBRvAb4APR5bHQ&usqp=CAU", "Left Wing", "Capitan Crunch", "1985-2000", "Canadian"),
+    Player("Auston Matthews", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1B6_XzFVEo5mtYrMDFsSax1LRdfhfAhBHMw&usqp=CAU", "Center", "Papi", "2015-present", "American"),
     # --------------------------Canadians----------------------------
-    Player("Guy Laffleur"),
-    Player("Maurice Richard"),
-    Player("Patrick Roy"),
-    Player("Daly Koivu"),
+    Player("Guy Laffleur", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4p6eZNaEuyaxFm9heq701x5q5FCXu_wIgVQ&usqp=CAU", "Right Wing", "The Flower", "1971-1991", "Canadian"),
+    Player("Maurice Richard", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSQYxQcs30SLYn3xQ9OideLUVBJXPyntkPA&usqp=CAU", "Right Wing", "Rocket", "1948-1951", "Canadian"),
+    Player("Patrick Roy", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWvk-aAAX4eGgCubnQhah03fkZP0MSbxitlQ&usqp=CAU", "Goalie", "Saint Patrick", "1984-2003", "Canadian"),
+    Player("Saku Koivu", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7woOx_CXGlY_48wuJo5EOoxKH-wSg0e4bw&usqp=CAU", "Center", "Capitan K","1992-2014", "Finish"),
 
 ]
