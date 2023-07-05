@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h1 class="title">Original Six Teams</h1>
+<h1 class="title pt-5">{{header}}</h1>
 <form class="mb-5" method="get">
   <div class="field has-addons">
     <div class="control">
@@ -13,10 +13,11 @@
     </div>
   </div>
   <a class="button is-dark" href="{% url 'team_list' %}">Clear Search</a>
+  <a class="button is-dark" href="{% url 'team_create' %}">Add a Team</a>
 </form>
 <div class="gallery">
   {% for team in teams %}
-  <a href="">
+  <a href="{% url 'team_detail' team.pk %}">
     <div class="card">
       <div class="card-image">
         <figure class="image is-square">

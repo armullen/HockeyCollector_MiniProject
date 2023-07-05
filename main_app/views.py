@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.views import View
 from django.views.generic.base import TemplateView
 from .models import Team
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.views.generic import DetailView
+from django.urls import reverse
 
 # Create your views here.
 class Home(TemplateView):
@@ -23,6 +26,32 @@ class TeamList(TemplateView):
             context['teams'] = Team.objects.all()
             context['header'] = 'Original Six Teams'
         return context
+    
+class TeamCreate(CreateView):
+    model = Team
+    fields = ['name', 'img', 'arena']
+    template_name = 'team_create.html'
+    
+    def success_url(self):
+        return reverse('team_detail', kwargs={'pk': self.object.pk})
+
+class TeamDetail(DetailView):
+    model = Team
+    template_name = 'team_detail.html'
+
+class TeamUpdate(UpdateView):
+    model = Team
+    fields = ['name', 'img', 'arena']
+    template_name = 'team_update.html'
+    
+    def get_success_url(self):
+        return reverse('team_detail', kwargs={'pk': self.object.pk})
+    
+class TeamDelete(DeleteView):
+    model = Team
+    template_name = 'team_delete_confirmation.html'
+    success_url= '/teams/'
+
 
 class Player(TemplateView):
     def __init__(self, name, img, position, nickname, years, nationality):
