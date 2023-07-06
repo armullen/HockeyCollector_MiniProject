@@ -58,9 +58,10 @@ class PlayerCreate(View):
 
     def post(self, request, pk):
         name= request.POST.get('name')
-        image= request.POST.get('img')
+        image= request.POST.get('image')
         position= request.POST.get('position')
         nickname= request.POST.get('nickname')
         nationality= request.POST.get('nationality')
-        Player.objects.create(name=name, image=image, position=position, nickname=nickname, nationality=nationality)
-        return redirect('player_detail' pk=pk)
+        team=Team.objects.get(pk=pk)
+        Player.objects.create(name=name, image=image, position=position, nickname=nickname, nationality=nationality, team=team)
+        return redirect('team_detail', pk=pk)

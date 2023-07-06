@@ -20,7 +20,59 @@
     </div>
     <div class="detail__players mb-5">
         <h3 class="name is-3">Players</h3>
-
+        <form class="mb-5" action="{% url 'player_create' team.pk %}" method="post">
+            {% csrf_token %}
+            <div class="field has-addons">
+                <div class="control">
+                    <input
+                        class="input"
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        required
+                    />
+                </div>
+                <div class="control">
+                    <input
+                        class="input"
+                        type="text"
+                        name="image"
+                        placeholder="Photo"
+                        required
+                    />
+                </div>
+                <div class="control">
+                    <input
+                        class="input"
+                        type="text"
+                        name="position"
+                        placeholder="Position"
+                        required
+                    />
+                </div>
+                <div class="control">
+                    <input
+                        class="input"
+                        type="text"
+                        name="nickname"
+                        placeholder="Nickname"
+                        required
+                    />
+                </div>
+                <div class="control">
+                    <input
+                        class="input"
+                        type="text"
+                        name="nationality"
+                        placeholder="Nationality"
+                        required
+                    />
+                </div>
+                <div class="control">
+                    <input class="button is-primary" type="submit" value="Add Player" />
+                </div>
+            </div>
+        </form>
         {% for player in team.players.all %} 
         <div class="player">
             <span>{{forloop.counter}}</span>
