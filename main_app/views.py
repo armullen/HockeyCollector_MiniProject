@@ -31,7 +31,7 @@ class TeamCreate(CreateView):
     model = Team
     fields = ['name', 'img', 'arena']
     template_name = 'team_create.html'
-    success_url = "/team"
+    success_url = "/teams"
 
 class TeamDetail(DetailView):
     model = Team
